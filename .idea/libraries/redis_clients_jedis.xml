@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="redis.clients.jedis" type="repository">
+    <properties maven-id="redis.clients:jedis:5.2.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/5.2.0/jedis-5.2.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.12.0/commons-pool2-2.12.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/json/json/20240303/json-20240303.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
