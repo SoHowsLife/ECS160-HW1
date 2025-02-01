@@ -1,5 +1,7 @@
 package com.ecs160.hw1;
 
+import com.google.gson.JsonObject;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,11 +9,11 @@ public class SinglePost implements Post{
 
     private final String uri;
     private final String cid;
-    private final String author;
+    private final JsonObject author;
     private final String content;
     private final String timestamp;
 
-    public SinglePost(String uri, String cid, String author, String content, String timestamp) {
+    public SinglePost(String uri, String cid, JsonObject author, String content, String timestamp) {
         this.uri = uri;
         this.cid = cid;
         this.author = author;
@@ -35,7 +37,7 @@ public class SinglePost implements Post{
     }
 
     @Override
-    public String getAuthor() {
+    public JsonObject getAuthor() {
         return author;
     }
 
