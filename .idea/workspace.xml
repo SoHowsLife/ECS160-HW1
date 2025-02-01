@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aedc9de-fd48-4605-a598-2fbeff66724f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/BasicAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/SocialMediaAnalyzerDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/SocialMediaAnalyzerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/SinglePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,9 +42,9 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Scott/Documents/GitHub/ECS160-HW1-skeleton&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Scott/Documents/GitHub/ECS160-HW1&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
