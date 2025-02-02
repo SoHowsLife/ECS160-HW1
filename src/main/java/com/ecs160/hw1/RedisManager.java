@@ -32,7 +32,7 @@ public class RedisManager {
         }
     }
 
-    public void storeReplies(Post parent, List<Post> replies){
+    private void storeReplies(Post parent, List<Post> replies){
         for (Post reply: replies){
             Map<String, String> postMap = new HashMap<>();
             postMap.put("cid", reply.getCid());

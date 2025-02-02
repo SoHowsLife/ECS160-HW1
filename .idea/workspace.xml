@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9aedc9de-fd48-4605-a598-2fbeff66724f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/BasicAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/BasicAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/PostParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/PostParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/WeightedAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/WeightedAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/RedisManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/RedisManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/SocialMediaAnalyzerDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecs160/hw1/SocialMediaAnalyzerDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,5 +113,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
