@@ -7,13 +7,23 @@ import java.util.List;
 public class Thread implements Post{
     private final String uri;
     private final String cid;
-    private final JsonObject author;
+    private final String author;
     private final String content;
     private final Integer replyCount;
     private final String timestamp;
     private final List<Post> replies;
 
-    public Thread(String uri, String cid, JsonObject author, String content, Integer replyCount, String timestamp, List<Post> replies) {
+    public Thread() {
+        this.uri = "";
+        this.cid = "";
+        this.author = "";
+        this.content = "";
+        this.replyCount = 0;
+        this.timestamp = "2000-01-01T00:00:00.000Z";
+        this.replies = List.of();
+    }
+
+    public Thread(String uri, String cid, String author, String content, Integer replyCount, String timestamp, List<Post> replies) {
         this.uri = uri;
         this.cid = cid;
         this.author = author;
@@ -34,7 +44,7 @@ public class Thread implements Post{
     }
 
     @Override
-    public JsonObject getAuthor() {
+    public String getAuthor() {
         return author;
     }
 

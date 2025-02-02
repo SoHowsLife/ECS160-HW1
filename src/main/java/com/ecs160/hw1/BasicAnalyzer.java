@@ -34,6 +34,7 @@ public class BasicAnalyzer implements Analyzer{
         return totalReplies / totalPosts;
     }
 
+    //The difference between the parent comment time and each of its replies divided by the number of replies
     @Override
     public String getAvgInterval(List<Post> posts) {
         long averageDiff = 0;
@@ -44,7 +45,7 @@ public class BasicAnalyzer implements Analyzer{
                 for (Post reply: post.getReplies()){
                     totalInterval += Math.abs(parent - Instant.parse(reply.getTimestamp()).getEpochSecond());
                 }
-                averageDiff += totalInterval / (getTotalPosts(post.getReplies()) + 1);
+                averageDiff += (long) (totalInterval / (getTotalPosts(post.getReplies())));
             }
         }
         Duration avgInterval = Duration.ofSeconds(averageDiff);

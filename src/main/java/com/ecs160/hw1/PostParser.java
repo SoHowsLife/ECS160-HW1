@@ -32,7 +32,7 @@ public class PostParser {
         JsonObject postData = postObject.get("post").getAsJsonObject();
         String uri = postData.get("uri").getAsString();
         String cid = postData.get("cid").getAsString();
-        JsonObject author = postData.get("author").getAsJsonObject();
+        String author = postData.get("author").getAsJsonObject().get("handle").getAsString();
         String content = postData.get("content").getAsString();
         String timestamp = postData.get("indexedAt").getAsString();
         JsonArray replies = postObject.get("replies").getAsJsonArray();

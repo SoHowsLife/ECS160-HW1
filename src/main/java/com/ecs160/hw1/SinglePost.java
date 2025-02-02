@@ -9,11 +9,19 @@ public class SinglePost implements Post{
 
     private final String uri;
     private final String cid;
-    private final JsonObject author;
+    private final String author;
     private final String content;
     private final String timestamp;
 
-    public SinglePost(String uri, String cid, JsonObject author, String content, String timestamp) {
+    public SinglePost(){
+        this.uri = "";
+        this.cid = "";
+        this.author = "";
+        this.content = "";
+        this.timestamp = "2000-01-01T00:00:00.000Z";
+    }
+
+    public SinglePost(String uri, String cid, String author, String content, String timestamp) {
         this.uri = uri;
         this.cid = cid;
         this.author = author;
@@ -37,7 +45,7 @@ public class SinglePost implements Post{
     }
 
     @Override
-    public JsonObject getAuthor() {
+    public String getAuthor() {
         return author;
     }
 

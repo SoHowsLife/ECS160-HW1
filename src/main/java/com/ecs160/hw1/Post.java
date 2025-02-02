@@ -7,7 +7,7 @@ import java.util.List;
 public interface Post {
     String getUri();
     String getCid();
-    JsonObject getAuthor();
+    String getAuthor();
     String getContent();
     Integer getReplyCount();
     String getTimestamp();

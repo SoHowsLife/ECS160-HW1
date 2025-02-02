@@ -20,7 +20,7 @@ public class RedisManager {
         Map<String, String> postMap = new HashMap<>();
         postMap.put("cid", post.getCid());
         postMap.put("uri", post.getUri());
-        postMap.put("authorName", post.getAuthor().getAsString());
+        postMap.put("authorName", post.getAuthor());
         postMap.put("postDate", post.getTimestamp());
         postMap.put("postContent", post.getContent());
         postMap.put("replyCount", Integer.toString(post.getReplyCount()));
@@ -37,7 +37,7 @@ public class RedisManager {
             Map<String, String> postMap = new HashMap<>();
             postMap.put("cid", reply.getCid());
             postMap.put("uri", reply.getUri());
-            postMap.put("authorName", reply.getAuthor().getAsString());
+            postMap.put("authorName", reply.getAuthor());
             postMap.put("postDate", reply.getTimestamp());
             postMap.put("postContent", reply.getContent());
             postMap.put("replyCount", Integer.toString(reply.getReplyCount()));

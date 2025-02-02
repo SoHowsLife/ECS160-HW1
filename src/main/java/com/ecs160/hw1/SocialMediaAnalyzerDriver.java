@@ -49,7 +49,7 @@ public class SocialMediaAnalyzerDriver {
                 analyzer = new BasicAnalyzer();
             }
             System.out.printf("Total Posts:%.2f\nAverage Posts:%.2f\nAverage Interval:%s\n",analyzer.getTotalPosts(posts), analyzer.getAvgPosts(posts), analyzer.getAvgInterval(posts));
-            
+
         } catch (FileNotFoundException e) {
             throw new FileNotFoundException("Json file not found.");
         }
