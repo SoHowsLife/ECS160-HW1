@@ -27,7 +27,7 @@ public class PostParser {
         String cid = postData.get("cid").getAsString();
         JsonObject author = postData.get("author").getAsJsonObject();
         String content = postData.get("content").getAsString();
-        String timestamp = postData.get("timestamp").getAsString();
+        String timestamp = postData.get("indexedAt").getAsString();
         JsonArray replies = postObject.get("replies").getAsJsonArray();
 
         Post post;
